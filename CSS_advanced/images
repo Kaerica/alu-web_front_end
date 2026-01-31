@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Advanced Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ABOUT -->
+    <img src=""C:\Users\HP 440 G8\Downloads\pic-about-01.jpg.jpg"" alt="About image">
+
+    <!-- WORK -->
+    <img src=""C:\Users\HP 440 G8\Downloads\pic-work-01.jpg.jpg"" alt="Work image 1">
+    <img src=""C:\Users\HP 440 G8\Downloads\pic-work-02.jpg.jpg"" alt="Work image 2">
+    <img src=""C:\Users\HP 440 G8\Downloads\pic-work-03.jpg.jpg"" alt="Work image 3">
+
+    <!-- ARTICLES -->
+    <img src=""C:\Users\HP 440 G8\Downloads\pic-article-01.jpg.jpg"" alt="Article image 1">
+    <img src=""C:\Users\HP 440 G8\Downloads\pic-article-02.jpg.jpg"" alt="Article image 2">
+    <img src=""C:\Users\HP 440 G8\Downloads\pic-article-03.jpg.jpg"" alt="Article image 3">
+
+    <!-- PEOPLE -->
+    <img src=""C:\Users\HP 440 G8\Downloads\pic-person-01.jpg.jpg"" alt="Person image 1">
+    <img src=""C:\Users\HP 440 G8\Downloads\pic-person-02.jpg.jpg"" alt="Person image 2">
+    <img src=""C:\Users\HP 440 G8\Downloads\pic-person-03.jpg.jpg"" alt="Person image 3">
+
+</body>
+</html>
+
