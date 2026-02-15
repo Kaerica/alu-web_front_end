@@ -1,40 +1,14 @@
-/* Task 31: adding quote styling to testimonials */
-:root {
-  --testimonial-border-left: 0.3rem solid var(--color-primary);
-  --testimonial-padding-left: 2rem;
-  --testimonial-margin-bottom: 2rem;
-  --testimonial-text-size: var(--font-size-large);
-  --quote-char: '"';
-  --quote-size: 3rem;
-  --quote-opacity: 0.2;
-}
-
-.testimonial {
-  border-left: var(--testimonial-border-left);
-  padding-left: var(--testimonial-padding-left);
-  margin-bottom: var(--testimonial-margin-bottom);
+/* Task 31: Add quotes decoration on testimonials */
+.card-testimonial .card-quote {
   position: relative;
 }
 
-.testimonial::before {
-  content: var(--quote-char);
+.card-testimonial .card-quote::before {
+  content: '\201C';
   position: absolute;
-  left: -2rem;
-  top: -1rem;
-  font-size: var(--quote-size);
-  color: var(--color-primary);
-  opacity: var(--quote-opacity);
-  font-weight: var(--font-weight-bold);
-}
-
-.testimonial-text {
-  font-size: var(--testimonial-text-size);
-  line-height: var(--line-height-big);
-  font-style: italic;
-  margin-bottom: 1rem;
-}
-
-.testimonial-author {
-  font-weight: var(--font-weight-bold);
-  color: var(--color-black);
+  top: -4.5rem;
+  left: -1rem;
+  color: #efeded;
+  font-size: 10rem;
+  z-index: -1;
 }

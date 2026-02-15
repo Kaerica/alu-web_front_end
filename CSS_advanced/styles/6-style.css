@@ -1,18 +1,5 @@
-/* Task 6: font-weight variables *//* Task 6: font-weight variables */
-
-
-
-
-
-
-
-
-
-
-
-
-
-}  font-weight: var(--font-weight-bold);h1, h2, h3, h4, h5, h6 {}  font-weight: var(--font-weight-regular);body {}  --font-weight-bold: 700;  --font-weight-regular: 400;:root {:root {
+/* Task 6: font-weight variables */
+:root {
   --font-weight-regular: 400;
   --font-weight-bold: 700;
 }

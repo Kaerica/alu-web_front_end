@@ -1,29 +1,18 @@
-/* Task 23: fixing the dark theme */
+/* Task 23: Fix issues for dark theme */
 [data-section-theme="dark"] {
-  background-color: var(--section-dark-background);
-  color: var(--section-dark-text-color);
+  --text-color: var(--color-white);
+  --section-title-color: var(--color-white);
+  background: var(--color-black);
 }
 
-[data-section-theme="dark"] .section-title {
-  color: var(--section-dark-text-color);
+.footer-address {
+  color: var(--text-color);
 }
 
-[data-section-theme="dark"] .section-tagline {
-  color: var(--color-primary);
+.social-link {
+  display: block;
 }
 
-[data-section-theme="dark"] a {
-  color: var(--section-dark-text-color);
-}
-
-[data-section-theme="dark"] a:hover {
-  color: var(--color-primary);
-}
-
-[data-section-theme="dark"] a:visited {
-  color: var(--section-dark-text-color);
-}
-
-[data-section-theme="dark"] a:active {
-  background-color: var(--color-primary);
+.social-link svg {
+  fill: var(--text-color);
 }

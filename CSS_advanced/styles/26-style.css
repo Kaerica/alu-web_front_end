@@ -1,12 +1,16 @@
-/* Task 26: adding border radius to images */
-:root {
-  --img-border-radius: 0.5rem;
-  --img-max-width: 100%;
-  --img-height: auto;
+/* Task 26: Add border radius to images */
+.card-testimonial {
+  text-align: center;
 }
 
-img {
-  border-radius: var(--img-border-radius);
-  max-width: var(--img-max-width);
-  height: var(--img-height);
+.card-testimonial .card-avatar {
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+}
+
+.card-testimonial .card-quote cite {
+  display: block;
+  padding-top: 1rem;
+  color: var(--color-primary);
 }
