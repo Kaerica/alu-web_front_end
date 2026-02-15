@@ -1,0 +1,22 @@
+/* Task 22: using data attributes for theming */
+:root {
+  --section-dark-background: var(--color-black);
+  --section-dark-text-color: var(--color-white);
+}
+
+[data-section-theme="dark"] {
+  background-color: var(--section-dark-background);
+  color: var(--section-dark-text-color);
+}
+
+[data-section-theme="dark"] .section-title {
+  color: var(--section-dark-text-color);
+}
+
+[data-section-theme="dark"] .section-tagline {
+  color: var(--section-dark-text-color);
+}
+
+[data-section-theme="dark"] a {
+  color: var(--section-dark-text-color);
+}

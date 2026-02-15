@@ -1,0 +1,6 @@
+/* Task 20: clearing the floats */
+.row::after {
+  content: '';
+  display: table;
+  clear: both;
+}

@@ -1,0 +1,4 @@
+/* Task 9: remove underline from links */
+a[href] {
+  text-decoration: none;
+}

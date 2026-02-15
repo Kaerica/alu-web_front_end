@@ -1,0 +1,77 @@
+/* Task 32: adding transitions and animations */
+:root {
+  --transition-timing: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+  --transition-duration: 0.5s;
+}
+
+* {
+  transition: all var(--transition-duration) var(--transition-timing);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-1rem);
+  }
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.card-services {
+  animation: fadeIn var(--transition-duration) var(--transition-timing);
+}
+
+.nav-item {
+  animation: slideInLeft var(--transition-duration) var(--transition-timing);
+}
+
+.section-hero {
+  animation: slideInRight var(--transition-duration) var(--transition-timing);
+}
+
+.testimonial:hover {
+  transform: translateX(0.5rem);
+}
+
+a {
+  transition: color var(--transition-duration) var(--transition-timing),
+              background-color var(--transition-duration) var(--transition-timing);
+}

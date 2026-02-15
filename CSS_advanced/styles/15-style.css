@@ -1,0 +1,8 @@
+/* Task 15: universal box-sizing */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}

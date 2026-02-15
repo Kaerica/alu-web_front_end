@@ -1,0 +1,16 @@
+/* Task 13: pseudo-classes for links */
+a[href] {
+  /* already had no text-decoration earlier */
+}
+
+a[href]:visited {
+  font-style: italic;
+}
+
+a[href]:hover {
+  text-decoration: underline;
+}
+
+a[href]:active {
+  background-color: var(--color-light-grey);
+}

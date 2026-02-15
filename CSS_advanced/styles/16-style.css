@@ -1,0 +1,10 @@
+/* Task 16: styling container */
+.section-tagline {
+  /* previous properties remain */
+}
+
+.container {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}

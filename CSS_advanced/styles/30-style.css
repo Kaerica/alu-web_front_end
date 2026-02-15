@@ -1,0 +1,39 @@
+/* Task 30: styling the works section */
+:root {
+  --works-item-background: var(--color-light-grey);
+  --works-item-padding: 2rem;
+  --works-item-margin: 1rem;
+  --works-item-border-radius: 0.5rem;
+  --works-item-transition: all 0.3s ease;
+}
+
+.works-item {
+  background-color: var(--works-item-background);
+  padding: var(--works-item-padding);
+  margin: var(--works-item-margin);
+  border-radius: var(--works-item-border-radius);
+  transition: var(--works-item-transition);
+  position: relative;
+  overflow: hidden;
+}
+
+.works-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.works-item:hover .section-title {
+  color: var(--color-white);
+}
+
+.works-item:hover .section-tagline {
+  color: var(--color-white);
+}
+
+.works-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--works-item-border-radius);
+}

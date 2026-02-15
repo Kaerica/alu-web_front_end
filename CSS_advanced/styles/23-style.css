@@ -1,0 +1,29 @@
+/* Task 23: fixing the dark theme */
+[data-section-theme="dark"] {
+  background-color: var(--section-dark-background);
+  color: var(--section-dark-text-color);
+}
+
+[data-section-theme="dark"] .section-title {
+  color: var(--section-dark-text-color);
+}
+
+[data-section-theme="dark"] .section-tagline {
+  color: var(--color-primary);
+}
+
+[data-section-theme="dark"] a {
+  color: var(--section-dark-text-color);
+}
+
+[data-section-theme="dark"] a:hover {
+  color: var(--color-primary);
+}
+
+[data-section-theme="dark"] a:visited {
+  color: var(--section-dark-text-color);
+}
+
+[data-section-theme="dark"] a:active {
+  background-color: var(--color-primary);
+}

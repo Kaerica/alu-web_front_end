@@ -1,0 +1,12 @@
+/* Task 26: adding border radius to images */
+:root {
+  --img-border-radius: 0.5rem;
+  --img-max-width: 100%;
+  --img-height: auto;
+}
+
+img {
+  border-radius: var(--img-border-radius);
+  max-width: var(--img-max-width);
+  height: var(--img-height);
+}

@@ -1,0 +1,45 @@
+/* Task 29: styling nav with pseudo-elements */
+:root {
+  --nav-link-display: inline-block;
+  --nav-link-padding: 0.5rem 0;
+  --nav-link-position: relative;
+  --nav-link-text-decoration: none;
+}
+
+.nav-link {
+  display: var(--nav-link-display);
+  padding: var(--nav-link-padding);
+  position: var(--nav-link-position);
+  text-decoration: var(--nav-link-text-decoration);
+  color: var(--color-black);
+}
+
+.nav-link::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0.2rem;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-primary);
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::before {
+  width: 100%;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -0.5rem;
+  left: 0;
+  width: 0;
+  height: 0.1rem;
+  background-color: var(--color-primary);
+  transition: width 0.3s ease;
+}
+
+.nav-link:active::after {
+  width: 100%;
+}

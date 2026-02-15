@@ -1,0 +1,30 @@
+/* Task 25: styling the buttons */
+:root {
+  --btn-display: inline-block;
+  --btn-padding: 1rem 2rem;
+  --btn-border: 2px solid var(--color-primary);
+  --btn-font-size: var(--font-size-medium);
+  --btn-color: var(--color-primary);
+  --btn-text-decoration: none;
+  --btn-cursor: pointer;
+  --btn-background: transparent;
+  --btn-border-radius: 0.5rem;
+}
+
+.btn {
+  display: var(--btn-display);
+  padding: var(--btn-padding);
+  border: var(--btn-border);
+  font-size: var(--btn-font-size);
+  color: var(--btn-color);
+  text-decoration: var(--btn-text-decoration);
+  cursor: var(--btn-cursor);
+  background: var(--btn-background);
+  border-radius: var(--btn-border-radius);
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: var(--color-primary);
+  color: var(--color-white);
+}

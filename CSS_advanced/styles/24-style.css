@@ -1,0 +1,26 @@
+/* Task 24: styling the card services */
+:root {
+  --card-services-background: var(--color-light-grey);
+  --card-services-padding: 3rem;
+  --card-services-margin: 2rem;
+}
+
+.card-services {
+  background-color: var(--card-services-background);
+  padding: var(--card-services-padding);
+  margin: var(--card-services-margin);
+  border-radius: 0.5rem;
+}
+
+.card-services:hover {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+.card-services:hover .section-title {
+  color: var(--color-white);
+}
+
+.card-services:hover .section-tagline {
+  color: var(--color-white);
+}

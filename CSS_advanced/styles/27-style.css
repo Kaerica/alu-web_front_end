@@ -1,0 +1,28 @@
+/* Task 27: styling the section hero */
+:root {
+  --section-hero-background: url('../images/hero.jpg') center/cover no-repeat;
+  --section-hero-min-height: 50vh;
+  --section-hero-display: flex;
+  --section-hero-align-items: center;
+  --section-hero-justify-content: center;
+}
+
+.section-hero {
+  background: var(--section-hero-background);
+  min-height: var(--section-hero-min-height);
+  display: var(--section-hero-display);
+  align-items: var(--section-hero-align-items);
+  justify-content: var(--section-hero-justify-content);
+  color: var(--color-white);
+  text-align: center;
+}
+
+.section-hero .section-title {
+  color: var(--color-white);
+  font-size: var(--font-size-xx-large);
+}
+
+.section-hero .section-tagline {
+  color: var(--color-white);
+  font-size: var(--font-size-large);
+}
