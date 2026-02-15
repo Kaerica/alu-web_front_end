@@ -128,10 +128,10 @@ nav .nav-item + .nav-item {
   display: inline;
 }
 
-.tag-list li:after {
+.tag-list li::after {
   content: ", ";
 }
 
-.tag-list li:last-child:after {
+.tag-list li:last-child::after {
   content: "";
 }

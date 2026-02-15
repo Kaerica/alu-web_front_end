@@ -26,6 +26,14 @@ nav .nav-item + .nav-item {
 }
 
 /* Section HERO section */
+.hero-homepage .section-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 50vh;
+}
+
 .section-hero {
   position: relative;
   margin-top: -8.5rem;
@@ -38,11 +46,6 @@ nav .nav-item + .nav-item {
 .section-hero .section-category {
   color: var(--color-white);
   text-transform: uppercase;
-}
-
-/* hero-homepage class which will receive former section-hero rules */
-.hero-homepage {
-  /* previously section-hero declarations moved here if any */
 }
 
 /* Grid section */

@@ -16,12 +16,16 @@
 }
 
 /* Navbar section */
-nav {
+.nav {
   display: flex;
 }
 
-nav .nav-item + .nav-item {
-  margin: 0 0 0 2rem;
+.nav .nav-item {
+  list-style: none;
+}
+
+.nav .nav-item + .nav-item {
+  margin: var(--nav-item-margin);
 }
 
 /* Grid section */

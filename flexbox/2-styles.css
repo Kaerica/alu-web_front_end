@@ -19,8 +19,7 @@
   flex-direction: row-reverse;
 }
 
-/* removed row::after and floats as per task 0 */
-
+/*** 4. CARD ***/
 [class*='col-'] {
   /* float: left; removed */
   width: 100%;
