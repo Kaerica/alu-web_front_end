@@ -1,0 +1,32 @@
+/* 3-styles.css - simplified services list */
+
+/* Variables */
+:root {
+  --color-white: #fff;
+  --color-primary: #3498db;
+  --color-light-grey: #ddd;
+  --font-size-small: 0.8rem;
+  --nav-item-margin: 0 0 0 1rem;
+}
+
+/* Grid section */
+.row {
+  display: flex;
+}
+
+/* Section SERVICES ============================= */
+.section-services .row {
+  flex-wrap: wrap;
+}
+
+/* Section Latest news ============================= */
+.section-latest-news .row {
+  flex-direction: row-reverse;
+}
+
+/* removed row::after and floats as per task 0 */
+
+[class*='col-'] {
+  /* float: left; removed */
+  width: 100%;
+}

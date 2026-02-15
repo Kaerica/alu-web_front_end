@@ -1,0 +1,111 @@
+/* 11-styles.css - article hero banner updates */
+
+/* Variables */
+:root {
+  --color-white: #fff;
+  --color-primary: #3498db;
+  --color-light-grey: #ddd;
+  --font-size-small: 0.8rem;
+  --nav-item-margin: 0 0 0 2rem;
+}
+
+/* Header section */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Navbar section */
+nav {
+  display: flex;
+}
+
+nav .nav-item + .nav-item {
+  margin: 0 0 0 2rem;
+}
+
+/* Section HERO section */
+.section-hero {
+  position: relative;
+  margin-top: -8.5rem;
+}
+
+.section-hero .section-body {
+  padding: 10rem 4rem;
+}
+
+.section-hero .section-category {
+  color: var(--color-white);
+  text-transform: uppercase;
+}
+
+/* hero-homepage class which will receive former section-hero rules */
+.hero-homepage {
+  /* previously section-hero declarations moved here if any */
+}
+
+/* Grid section */
+.row {
+  display: flex;
+  margin: -1rem;
+}
+
+.col-1-3 {
+  width: calc((100% / 3) - 2rem);
+}
+
+.col-1-2 {
+  width: calc((100% / 2) - 2rem);
+}
+
+[class*='col-'] {
+  margin: 1rem;
+  /* padding removed */
+}
+
+/* Section SERVICES ============================= */
+.section-services .row {
+  flex-wrap: wrap;
+}
+
+/* Section ABOUT US ============================= */
+.section-about-us [class^="col-"] {
+  align-self: center;
+}
+
+/* Section Latest news ============================= */
+.section-latest-news .row {
+  flex-direction: row-reverse;
+}
+
+/*** ARTICLE PAGE **/
+/* Section HERO (article)
+    ============================= */
+.hero-article {
+  background-size: 150rem 100rem;
+  background-position: 50% 0;
+}
+
+.hero-article:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+.hero-article .section-inner {
+  text-align: center;
+  align-items: center;
+  min-height: 40vh;
+}
+
+.hero-article .section-body {
+  position: relative;
+  padding: 7rem 0 0;
+  z-index: 2;
+}
